@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jana Garo</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+  <!-------------- Navbar --------------------->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#UeberMich">Über mich</a></li>
+      <li><a href="#Erfahrungen">Werdegang</a></li>
+      <li><a href="#Fähigkeiten">Skills</a></li>
+      <li><a href="#Kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-------------- Home --------------------->
+  <section class="home-container" id="Home">
+    <div class="home">
+      <h1>JANA GARO</h1>
+      <h3>Studentin BSc Wirtschaftsinformatik | Cosutmer Service Mitarbeiterin ERP</h3>
+      <img src="Bilder/Bewerbungsfoto.jpg">
+    </div>
+    <a href="#About" class="scroll-down"></a>
+  </section>
+
+
+    <!--------------- About me -------------------->
+    <section class="about-me" id="About me">
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. 
+            Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. 
+            <br />
+   
+            Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. 
+            Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. 
+        </div>
+      </section>
+    
+    <!--------------- Career -------------------->
+    <section class="career container" id="Career">
+        <h2>Career</h2>
+        <!-- Erfahrung 1 -->
+
+    
+        <!-- Erfahrung 2 -->
+
+    
+        <!-- Erfahrung 3 -->
+
+    
+        <!-- Erfahrung 4 -->
+
+
+        <!-- Erfahrung 5 -->
+
+    
+    
+    <!--------------- Skills -------------------->
+    
+    <section class="skills container" id="Fähigkeiten">
+        <h2>Skills</h2>
+    </section>
+    
+      <!--------------- Kontakt -------------------->
+      <div class="container" id="Kontakt">
+        <div class="main-containter" id="mainContainer">
+          <div class="form-container" id="formContainer">
+            <h2>Kontakt</h2>
+            <p><b>Hast du eine Frage?</b></p>
+            <br />
+            <p>
+              Fülle das untenstehende Formular aus, um mir eine Nachricht zu senden.
+              <br />
+              Falls du eine Rückmeldung willst, schreib das auch dazu.
+            </p>
+            <br />
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+              class="contact-form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="4305e1e2-3dc2-4e5c-b79e-6dc1745d3628"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="Neue Nachricht erhalten (Portfolioseite)"
+              />
+              <input type="checkbox" name="botcheck" id="" style="display: none" />
+    
+              <div class="form-group">
+                <label for="name">Vollständiger Name*</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Max Muster"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="max@muster.ch"
+                  required
+                />
+              </div>
+    
+              <div class="form-group">
+                <label for="phone">Telefonnummer</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+41 79 123 45 67"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Mitteilung*</label>
+    
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Deine Nachricht"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit">Absenden</button>
+              </div>
+              <p id="result"></p>
+              <p>* Pflichtfeld</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/janagaro"
+          ><img src="/bilder/linkedin.svg"
+        /></a>
+        <a href="mailto:jana.garo@students.bfh.ch"
+          ><img src="/bilder/email.svg"
+        /></a>
+        <a href="https://github.com/JanaGaro/Portfolio-Jana-Garo.git"
+          ><img src="/bilder/github_logo.svg"
+        /></a>
+      </div>
+    </body>
